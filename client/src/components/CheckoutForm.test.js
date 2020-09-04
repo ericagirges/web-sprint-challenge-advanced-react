@@ -38,4 +38,7 @@ test("form shows success message on submit with form details", () => {
     expect(submitButton).toBeTruthy();
     fireEvent.click(submitButton);
 
+    const successOnSubmit = screen.getByTestId(/successMessage/i);
+    expect(successOnSubmit).toBeTruthy();
+    expect(successOnSubmit).toBeInTheDocument();
 });
