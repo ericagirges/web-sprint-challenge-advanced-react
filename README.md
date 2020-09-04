@@ -45,6 +45,7 @@ Unmounting - componentWillUnmount - you can remove event listeners or terminate 
 Behavior created between one or more hooks to manage state.
 
 5. Describe how to test a React component with React Testing Library.
+Write maintainable tests and avoid including implementation details so any refactors of the components won't break the tests.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
