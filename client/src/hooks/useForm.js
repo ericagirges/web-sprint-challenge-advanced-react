@@ -9,6 +9,5 @@ export const useForm = (initialValue) => {
       console.log("e", e);
     setValues({ ...values, [e.target.name]: e.target.value });
   };
-
   return[values, handleChanges, showSuccessMessage, setShowSuccessMessage]
 };
